@@ -1,0 +1,7 @@
+ADV_BENCH SAFETY ABLATION REPORT (CORRECTED PARSE)
+==================================================
+Cond A (Baseline)    : ASR = 38.00%
+Cond B (M_f)         : ASR = 12.00%
+Cond C (M_f + M_cf)  : ASR = 14.00%
+
+Note: Corrected using strict JSON refusal parsing.

@@ -1,0 +1,29 @@
+======================================================================
+  TWIN MEMORY — CLOMO ABLATION REPORT
+  2026-03-30 02:11:34
+======================================================================
+
+  A = No memory (baseline)   B = M_f only   C = M_f + M_cf
+  Metric: Qwen-as-Judge accuracy (logical relation satisfied)
+
+----------------------------------------------------------------------
+  Cond       Accuracy    Δ vs A   Lat(s)   MF hits   MCF hits
+----------------------------------------------------------------------
+  C            94.4%    +94.4%     1.96       0.0        2.0
+
+----------------------------------------------------------------------
+
+  PER-RELATION BREAKDOWN:
+
+  Relation                        Cond C
+  --------------------------------------
+  Necessary Assumption            100.0%
+  Strengthen                      100.0%
+  Sufficient Assumption            85.7%
+  Weaken                           88.0%
+
+======================================================================
+  GUIDE:
+    C > B > A  →  both memories improve reasoning
+    C > B on Weaken/Strengthen  →  M_cf adds value on perturbative tasks
+======================================================================

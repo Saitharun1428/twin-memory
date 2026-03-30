@@ -6,8 +6,8 @@ Translated directly from notebook Cells 5 & 7.
 
 import json
 
-from llm_engine import ask_qwen
-from memory_db import (
+from src.llm_engine import ask_qwen
+from src.memory_db import (
     store_factual,
     retrieve_factual,
     store_counterfactual,
