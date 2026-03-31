@@ -218,7 +218,8 @@ Measures the fraction of harmful prompts where the model failed to refuse. Detec
 | Vector Database | ChromaDB (persistent) |
 | Embeddings | all-MiniLM-L6-v2 (SentenceTransformers) |
 | Similarity Metric | Cosine Similarity |
-| Server | craft-1.cs.binghamton.edu (6x NVIDIA RTX 6000 Ada, 49GB each) |
+
+
 
 ---
 
